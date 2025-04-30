@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+.menu-superior {
+      background-color: #0F2414;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+}
+    
+    
+.logo-container {
+      position: absolute;
+      left: 10px; /* estava 30px, agora mais à esquerda */
+      display: flex;
+      align-items: center;
+}
+      
+.logo {
+      height: 70px; /* antes era 50px */
+      width: auto;
+}
+    
+.nav-links {
+      display: flex;
+      gap: 80px;
+}
+    
+    
+.nav-links a {
+      
+      font-size: 15px;
+      color: antiquewhite;
+      text-decoration: none;
+      padding: 10px 15px;
+}
+    
+.nav-links a:hover {
+      background-color: #1C3E36;
+      color: white;
+      border-radius: 5px;
+}
+body {
+      font-family: 'Kadwa', serif;
+      background-color: #FDF4E5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+  
+  .login-container {
+      background-color: #ffffff; /* Fundo branco */
+      padding: 30px; /* Espaçamento interno */
+      border-radius: 15px; /* Bordas arredondadas */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra para destacar o formulário */
+      text-align: center;
+      width: 350px; /* Largura fixa */
+  }
+  .login-container form {
+      display: flex;
+      flex-direction: column; /* Organiza os elementos em uma coluna */
+      align-items: center; /* Centraliza os elementos horizontalmente */
+  }
+  
+  .login-container h1 {
+      font-size: 28px; /* Título maior */
+      margin-bottom: 20px;
+      color: #0F2414;
+  }
+  
+  .login-container input {
+      width: 100%; /* Faz com que o input ocupe toda a largura do formulário */
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none; /* Remove as bordas */
+      border-bottom: 2px solid #ccc; /* Adiciona uma borda inferior */
+      border-radius: 0; /* Remove bordas arredondadas */
+      font-size: 14px;
+      box-sizing: border-box; /* Garante que o padding não ultrapasse a largura */
+      background-color: transparent; /* Remove o fundo */
+  }
+  
+  .login-container input:focus {
+      outline: none; /* Remove o contorno padrão ao focar */
+      border-bottom: 2px solid #0F2414; /* Destaca a borda inferior ao focar */
+  }
+  
+  .login-container button {
+      background-color: #0F2414;
+      color: #fff;
+      border: none;
+      padding: 12px 20px; /* Botão maior */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      transition: background-color 0.3s ease; /* Animação suave ao passar o mouse */
+  }
+  
+  .login-container button:hover {
+      background-color: #1C3E36;
+  }
+  
+  .erro {
+      color: red;
+      font-size: 14px;
+      margin-bottom: 10px;
+  }

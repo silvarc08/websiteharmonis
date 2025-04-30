@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+body{
+  font-family:'Kadwa',serif;
+  margin: 0;
+  padding: 0;
+}
+.menu-superior {
+      background-color: #0F2414;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      /* ← Aumentei a altura com mais padding */
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    
+    
+    .logo-container {
+      position: absolute;
+      left: 10px; /* estava 30px, agora mais à esquerda */
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    .logo {
+      height: 70px; /* antes era 50px */
+      width: auto;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 80px;
+    }
+    
+    
+    .nav-links a {
+      f.nav-links a {
+          font-family: 'Anton', sans-serif;
+        }
+         font-size: 15px;
+      color: antiquewhite;
+      text-decoration: none;
+      padding: 10px 15px;
+    }
+    
+    .nav-links a:hover {
+      background-color: #1C3E36;
+      color: white;
+      border-radius: 5px;
+    }
+    
+.topo,
+.folhagem {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+display: block;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+
+    .ciclo-container img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      background-size: cover;
+     margin-top: 50px; 
+    }
+
+    .ciclo-texto {
+      position: absolute;
+      font-size: 15px;
+      top: 100px;
+      right: 20px;
+      color: white;
+    }
+
+    
+    .ciclo-texto p {
+      text-align: center;
+      margin-bottom: 2px;
+      font-size: 20px;
+    }
+
+.folhagem-container {
+  position: relative; 
+  text-align: center; /
+}
+
+.folhagem-container img {
+  position: relative;
+  width: 100%; 
+  max-width: 100%; 
+  height: 100%; 
+  background-size: cover;
+  margin: 0;
+}
+
+.folhagem-texto {
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 80%;
+  padding: 40px 50px;
+  margin: 60px auto;
+  box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: rgb(229, 212, 155);
+  color: black;
+  z-index: 100;
+  font-size: 15px;
+  right: 100px;
+}
+
+.folhagem-texto h1 {
+  margin-top: 0;
+  margin-bottom: 10px ;
+  font-size: 35px;
+}
+
+.folhagem-texto p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 25px;
+}
+
+.casa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  background-color: #ffffff;
+}
+
+.casa-texto {
+  justify-content: center;
+  width: 50%;
+  background-color: #2b5c42;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.casa-texto p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.casa-texto h2 {
+  margin-bottom: 50px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.casa-imagem {
+  width: 50%;
+}
+
+.casa {
+  display: flex;
+  align-items: stretch; 
+  background-color: #e6f0e6;
+  overflow: hidden;
+  height: auto;
+}
+.casa-imagem img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.falecomnos {
+  text-align: center;
+  background-color: #f6f1e8; 
+  padding: 50px 150px;
+}
+
+.falecomnos h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.falecomnos p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #3c6e56; 
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #2e5843; 
+}
+
+.titulo {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #2e5842;
+}
+
+.fundadores {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.fundador {
+  width: 150px;
+}
+
+.fundador img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nome {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #444;
+}
+.rodape {
+  background-color: #0F2414;
+  color: antiquewhite;
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: normal;
+ 
+}
+
+.logo-rodape {
+  width: 300px;
+}
+
+.link-rodape {
+  text-align: right; 
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 1130px;
+}
+
+.link-rodape a {
+  color: black;
+  text-decoration: none;
+  display: inline-block; 
+  margin-right: 10px; 
+}
+.link-rodape:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;;
+}
+
+

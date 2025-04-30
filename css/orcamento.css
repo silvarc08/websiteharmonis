@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden
+}
+.menu-superior {
+      background-color: #0F2414;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+}
+    
+    
+.logo-container {
+      position: absolute;
+      left: 10px; 
+      display: flex;
+      align-items: center;
+}
+      
+.logo {
+      height: 70px; 
+      width: auto;
+}
+    
+.nav-links {
+      display: flex;
+      gap: 80px;
+}
+    
+    
+.nav-links a {
+      
+      font-size: 15px;
+      color: antiquewhite;
+      text-decoration: none;
+      padding: 10px 15px;
+}
+    
+.nav-links a:hover {
+      background-color: #1C3E36;
+      color: white;
+      border-radius: 5px;
+}
+    
+body{
+      font-family: 'Kadwa', serif;
+      background: antiquewhite;
+      overflow-x: hidden;
+      margin: 0
+}
+
+.conteudo {
+  display: flex;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: auto; /* Ajusta a altura ao conteúdo */
+  padding: 100px 20px; /* Adiciona espaçamento interno */
+  margin-top: 80px; /* Espaço para evitar sobreposição com o menu fixo */
+  text-align: center; /* Centraliza o texto */
+  background-color: antiquewhite; /* Cor de fundo do conteúdo */
+}
+
+form {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+      font-family: 'Kadwa', serif;
+    }
+    
+    form h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #0F2414;
+      text-align: center;
+    }
+    
+    form label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+    
+    form input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    form button {
+      background-color: #0F2414;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+    }
+    
+    form button:hover {
+      background-color: #1C3E36;
+    }
+    
+    h2, h3 {
+      text-align: center;
+      color: #0F2414;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    
+    ul li {
+      background-color: #f9f9f9;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+    }
+
+    .logout-botao {
+      display: inline-block;
+      background-color: red;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-family: 'Kadwa', serif;
+      text-align: center;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+      margin-left: 20px;
+  }
+  
+  .logout-botao:hover {
+      background-color: #410f0f;
+      color: #fff;
+  }

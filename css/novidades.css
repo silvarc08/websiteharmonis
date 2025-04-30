@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden
+}
+.menu-superior {
+      background-color: #0F2414;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+}
+    
+    
+.logo-container {
+      position: absolute;
+      left: 10px; /* estava 30px, agora mais à esquerda */
+      display: flex;
+      align-items: center;
+}
+      
+.logo {
+      height: 70px; /* antes era 50px */
+      width: auto;
+}
+    
+.nav-links {
+      display: flex;
+      gap: 80px;
+}
+    
+    
+.nav-links a {
+      
+      font-size: 15px;
+      color: antiquewhite;
+      text-decoration: none;
+      padding: 10px 15px;
+}
+    
+.nav-links a:hover {
+      background-color: #1C3E36;
+      color: white;
+      border-radius: 5px;
+}
+    
+body{
+      font-family: 'Kadwa', serif;
+      text-align: center;
+      background: antiquewhite;
+      font-weight: normal;
+      overflow-x: hidden;
+      margin: 0
+
+}
+
+.conteudo {
+      position: relative;
+      color: white;
+      width: 100%; 
+      height: 100vh; 
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; 
+}
+
+.conteudo::before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: calc(100% + 20px); 
+      height: calc(100% + 20px);
+      background-image: url('../img/fundo_novidade.jpg'); 
+      background-size: cover;
+      background-position: center;
+      filter: blur(5px); 
+      z-index: -1; 
+}
+
+.publicaçoes {
+      background-color: beige;
+
+      padding: 20px;
+}
+h1 {
+      font-size: 40px;
+      margin-top: 50px;
+}
+h2 { 
+      font-style: normal;
+      font-weight: 100;
+
+}
+
+.link a {
+      text-decoration: none;
+      color: antiquewhite;
+      font-size: 30px;
+}
+
+.link {
+      background: #32634E;
+      padding: 20px;
+      margin-top: 80px;
+      margin-bottom: 150px;
+      border-radius: 20px;
+      margin-left: 130px;
+      margin-right: 130px;
+      
+}
+.link:hover {
+      background-color: #1C3E36;
+      
+      border-radius: 20px;
+    }
+    .link a:hover{
+      color: white;
+    }
+ .tutoriais .titulo {
+      background-color: antiquewhite;
+
+ }
+.titulo {
+      
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 300px;
+      margin-right: 300px;
+      border-radius: 20px;
+      font-size: 60px;
+      padding: 0px;
+}
+
+
+.data {
+      text-align: justify;
+      font-size: 25px;
+      background: #32634E;
+      color: white;
+      padding: 10px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      border-radius: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+}
+.tutoriais {
+      background-image: url('../img/planta.jpg'); 
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat; 
+      padding: 20px;
+      margin: 0px; 
+}
+.rodape {
+      background-color: #0F2414;
+      color: antiquewhite;
+      padding: 30px;
+      font-size: 20px;
+      text-align: left;
+      font-weight: normal;
+     
+}
+
+.logo-rodape {
+      width: 300px;
+}
+
+.link-rodape {
+      text-align: right; 
+      background-color: antiquewhite;
+      padding: 10px;
+      border-radius: 20px;
+      margin-left: 1130px;
+}
+
+.link-rodape a {
+      color: black;
+      text-decoration: none;
+      display: inline-block; 
+      margin-right: 10px; 
+}
+.link-rodape:hover {
+      background-color: white;
+      color: black;
+      border-radius: 20px;;
+    }

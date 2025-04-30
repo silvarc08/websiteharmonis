@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden
+}
+.menu-superior {
+      background-color: #0F2414;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+}
+    
+    
+.logo-container {
+      position: absolute;
+      left: 10px; 
+      display: flex;
+      align-items: center;
+}
+      
+.logo {
+      height: 70px; 
+      width: auto;
+}
+    
+.nav-links {
+      display: flex;
+      gap: 80px;
+}
+    
+    
+.nav-links a {
+      
+      font-size: 15px;
+      color: antiquewhite;
+      text-decoration: none;
+      padding: 10px 15px;
+}
+    
+.nav-links a:hover {
+      background-color: #1C3E36;
+      color: white;
+      border-radius: 5px;
+}
+    
+body{
+      font-family: 'Kadwa', serif;
+      background: antiquewhite;
+      overflow-x: hidden;
+      margin: 0
+}
+
+.conteudo {
+  display: flex;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: auto; /* Ajusta a altura ao conteúdo */
+  padding: 100px 20px; /* Adiciona espaçamento interno */
+  margin-top: 80px; /* Espaço para evitar sobreposição com o menu fixo */
+  text-align: center; /* Centraliza o texto */
+  background-color: antiquewhite; /* Cor de fundo do conteúdo */
+}
+
+.conteudo h1 {
+  font-size: 30px;
+  color: #0F2414;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.conteudo p {
+  font-size: 17px;
+  color: #0F2414;
+  text-align: center;
+  max-width: 900px; /* Largura máxima do parágrafo */
+  margin: 0 auto; /* Centraliza o parágrafo */
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.formulario {
+  background-color: #1C3E36;
+}
+form {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  gap: 10px; /* Espaçamento entre os grupos de campos */
+  max-width: 525px; /* Largura máxima do formulário */
+  margin: 10px; /* Adiciona margem ao redor do formulário */
+  padding: 8px;
+  background-color: #1C3E36; /* Fundo do formulário */
+  border-radius: 10px; /* Bordas arredondadas */
+  align-items: flex-start; /* Alinha os elementos à esquerda */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Organiza o rótulo e o campo verticalmente */
+  gap: 5px; /* Espaçamento entre o rótulo e o campo */
+}
+
+form label {
+  font-size: 15px;
+  color: #FFFDF7; /* Cor do texto do rótulo */
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+  width: 500px; /* Faz os campos ocuparem toda a largura */
+  padding: 10px;
+  font-size: 16px;
+  color: #0F2414; /* Cor do texto */
+  background-color: white; /* Fundo branco */
+  border: 1px solid #ccc; /* Borda cinza */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+form button {
+  margin-left: 415px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #0F2414;
+  background-color: #FFFDF7; /* Fundo do botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0F2414; /* Cor ao passar o mouse */
+  color: #FFFDF7;
+}
+
+.formulario .container {
+  display: flex; /* Organiza o formulário e o bloco de endereço/mapa lado a lado */
+  gap: 5px; /* Espaçamento entre o formulário e o bloco de endereço/mapa */
+  align-items: flex-start; /* Alinha os elementos ao topo */
+}
+
+form {
+  flex: 1; /* Faz o formulário ocupar o espaço necessário */
+}
+
+.endereco-mapa {
+  flex: 1; /* Faz o bloco de endereço/mapa ocupar o espaço restante */
+  display: flex;
+  flex-direction: column; /* Organiza o endereço acima do mapa */
+  gap: 10px; /* Espaçamento entre o endereço e o mapa */
+}
+
+.endereco {
+  background-color: #FFFDF7; /* Fundo do endereço */
+  padding: 10px;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  margin-top: 10px; /* Espaço acima do bloco de endereço */
+}
+
+.endereco h3 {
+  margin: 0 0 10px 0; /* Espaçamento abaixo do título */
+  font-size: 18px;
+  color: #0F2414;
+}
+
+.endereco p {
+  margin: 0;
+  font-size: 16px;
+  color: #0F2414;
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.mapa {
+  height: 495px; /* Define a altura do mapa */
+  border: 1px solid #ccc; /* Adiciona uma borda ao redor do mapa */
+  border-radius: 10px; /* Bordas arredondadas */
+  overflow: hidden; /* Garante que o mapa não ultrapasse os limites */
+}
